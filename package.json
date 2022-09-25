@@ -1,0 +1,32 @@
+{
+  "name": "rpg-shop",
+  "version": "1.0.0",
+  "description": "A website for your one-stop potion shop, using dynamically generated contents.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-eversole/rpg-shop.git"
+  },
+  "keywords": [
+    "javascript",
+    "webpack",
+    "potions",
+    "rpg"
+  ],
+  "author": "Kris Eversole",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/k-eversole/rpg-shop/issues"
+  },
+  "homepage": "https://github.com/k-eversole/rpg-shop#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
